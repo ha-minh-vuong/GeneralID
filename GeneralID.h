@@ -31,28 +31,28 @@
 
 ///
 /// Generate a random ID.
-/// @returns A random ID.
+/// @return A random ID.
 ///
 + (id)generateID;
 
 ///
 /// Returns a general ID created by GUID string.
 /// @param guidString A GUID string.
-/// @returns A general ID from GUID string.
+/// @return A general ID from GUID string.
 ///
 - (id)initWithGUIDString:(NSString *)guidString;
 
 ///
 /// Returns a general ID created by UUID string.
 /// @param uuidString A UUID string.
-/// @returns A General ID from UUID string.
+/// @return A General ID from UUID string.
 ///
 - (id)initWithUUIDString:(NSString *)uuidString;
 
 ///
 /// Returns a general ID created by input data.
 /// @param data Input data.
-/// @returns A general ID from data.
+/// @return A general ID from data.
 ///
 - (id)initWithData:(NSData *)data;
 
@@ -67,13 +67,13 @@
 
 ///
 /// Returns a GUID string for the general ID.
-/// @returns A GUID string.
+/// @return A GUID string.
 ///
 - (NSString *)GUIDString;
 
 ///
 /// Returns a UUID string for the general ID.
-/// @returns A UUID string.
+/// @return A UUID string.
 ///
 - (NSString *)UUIDString;
 

@@ -35,6 +35,11 @@
     return result;
 }
 
+- (id)init
+{
+    return [[self class] generateID];
+}
+
 - (id)initWithUUIDString:(NSString *)uuidString
 {
     if (self = [super init]) {

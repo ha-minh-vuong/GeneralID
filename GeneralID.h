@@ -30,10 +30,16 @@
 #pragma mark - Inits
 
 ///
-/// Generate a random ID.
-/// @return A random ID.
+/// Generate a general ID object with a random ID.
+/// @return A general ID object with a random ID.
 ///
 + (id)generateID;
+
+///
+/// Initialize a general ID object with a random ID.
+/// @return A general ID object wtih a random ID.
+///
+- (id)init;
 
 ///
 /// Returns a general ID created by GUID string.
